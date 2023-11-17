@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.demo{
+    animation:animatec 2s ease-in-out infinite;
+    /* background: #000; */
+}
+
+@keyframes animatec {
+    0%{
+        @apply from-red-500 bg-gradient-to-r to-purple-700;
+    }
+    50%{
+        @apply bg-gradient-to-r to-red-500 via-yellow-600 from-purple-700;
+    }
+    100%{
+        @apply from-purple-500 bg-gradient-to-r to-red-700;
+
+    }
+}
