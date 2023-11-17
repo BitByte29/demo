@@ -13,6 +13,7 @@ const App = () => {
     <div className='text-yellow-400 transition-all bg-black '>So now? ok im checking</div>
     <span className='flex items-center justify-center p-1  w-[100px]  demo'>
     <button className='w-full h-full px-4 py-2 bg-white hover:bg-transparent hover:text-white'>hi</button>
+    <p className='text-xl'>demo text to check update</p>
 
     </span>
     
